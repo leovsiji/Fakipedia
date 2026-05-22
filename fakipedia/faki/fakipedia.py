@@ -125,6 +125,7 @@ CREATE TABLE IF NOT EXISTS wikidata(
 /li - lists the topics available in offline library syntax - /li 
 /fi - find the topics in library syntax - /fi topic
 /e - exit syntax - /e
+/del - delete offline library /del topic - delete the topic from the library 
 """)    
             
         elif "/li" in ofin:
